@@ -39,8 +39,6 @@ function generate(){
 	const encircleY = (b / 2) + edge.y[0];
 	const encircleR = Math.sqrt(a*a + b*b) / 2;
 
-console.log(a);
-console.log(b);
 	ctx.beginPath();
 	ctx.arc(encircleX,encircleY,encircleR,0,2*Math.PI);
 	ctx.stroke();
